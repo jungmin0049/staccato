@@ -21,7 +21,7 @@ public class window {
 		JPanel p;
 		public MyEvent() {
 			setSize(300,200);
-			setTitle("이벤트 예제");
+			setTitle("stacato - 메인매뉴");
 			
 			p = new JPanel();
 			b1 = new JButton("노랑색");

@@ -24,7 +24,7 @@ public class window {
 			setTitle("stacato - 메인매뉴");
 			
 			p = new JPanel();
-			b1 = new JButton("노랑색");
+			b1 = new JButton("노aa");
 			b2 = new JButton("분홍색");
 			
 			b1.addActionListener(this);//이벤트메소드호출

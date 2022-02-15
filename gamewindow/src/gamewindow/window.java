@@ -24,14 +24,20 @@ public class window {
 			setTitle("stacato - 메인매뉴");
 			
 			p = new JPanel();
-			b1 = new JButton("노랑색");
-			b2 = new JButton("분홍색");
+			b1 = new JButton("로그인");
+			b2 = new JButton("업데이트");
+			b3 = new JButton("불러오기");
+			b4 = new JButton("공지사항");
 			
 			b1.addActionListener(this);//이벤트메소드호출
 			b2.addActionListener(this);//이벤트메소드호출
+			b3.addActionListener(this);//이벤트메소드호출
+			b4.addActionListener(this);//이벤트메소드호출
 			
 			p.add(b1);
 			p.add(b2);
+			p.add(b3);
+			p.add(b4);
 			add(p);
 			setVisible(true);
 		}

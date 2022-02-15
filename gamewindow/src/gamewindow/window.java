@@ -31,6 +31,8 @@ public class window {
 			
 			b1.addActionListener(this);//이벤트메소드호출
 			b2.addActionListener(this);//이벤트메소드호출
+			b3.addActionListener(this);//이벤트메소드호출
+			b4.addActionListener(this);//이벤트메소드호출
 			
 			p.add(b1);
 			p.add(b2);

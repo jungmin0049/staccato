@@ -34,6 +34,7 @@ public class window {
 			b3.addActionListener(this);//이벤트메소드호출
 			b4.addActionListener(this);//이벤트메소드호출
 			
+			
 			p.add(b1);
 			p.add(b2);
 			p.add(b3);
@@ -48,6 +49,10 @@ public class window {
 				p.setBackground(Color.YELLOW);
 			}else if(e.getSource()==b2) {
 				p.setBackground(Color.pink);
+			}else if(e.getSource()==b3) {
+				p.setBackground(Color.red);
+			}else if(e.getSource()==b4) {
+				p.setBackground(Color.green);
 			}
 		}
 		

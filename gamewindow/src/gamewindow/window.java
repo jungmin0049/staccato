@@ -11,10 +11,11 @@ import javax.swing.JPanel;
 
 public class window {
 	public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("start");
+        System.out.println("Window);
     }
 	
-	
+	//프레임 만드는 내용 
 	
 	public void frame() extends JFrame implements ActionListener{
 		Button b1,b2;
@@ -23,11 +24,13 @@ public class window {
 			setSize(300,200);
 			setTitle("stacato - 메인매뉴");
 			
+			
 			p = new JPanel();
 			b1 = new JButton("로그인");
 			b2 = new JButton("업데이트");
 			b3 = new JButton("불러오기");
 			b4 = new JButton("공지사항");
+			p.setBackground(Color.black)
 			
 			b1.addActionListener(this);//이벤트메소드호출
 			b2.addActionListener(this);//이벤트메소드호출

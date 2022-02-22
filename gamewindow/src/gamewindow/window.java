@@ -12,7 +12,8 @@ import javax.swing.JPanel;
 public class window {
 	public static void main(String[] args) {
         System.out.println("start");
-        System.out.println("Window);
+        System.out.println("Window");
+        window.frame()
     }
 	
 	//프레임 만드는 내용 

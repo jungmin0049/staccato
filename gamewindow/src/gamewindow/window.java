@@ -24,7 +24,7 @@ public class window {
 		Button b1,b2;
 		JPanel p;
 		public MyEvent() {
-			setSize(300,200);
+			setSize(1600,900);
 			setTitle("stacato - 메인매뉴");
 			
 			

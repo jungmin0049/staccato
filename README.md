@@ -9,6 +9,8 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 visual studio 
 
+web
+
 
 # TODO 
 
@@ -21,4 +23,10 @@ visual studio
 - 서버에서 가졍온 파일 유효한지 확인하기 
 - 맵 그리는 기능( 몇군대만 활성화)
 - 화면 크기 변한 
-- java로 
+
+
+# TEAM
+
+- back jungmin
+- front 수빈
+- 시나리오 채림
